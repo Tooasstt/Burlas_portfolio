@@ -2,10 +2,6 @@
     box-sizing: border-box;
 }
 
-body {
-    margin: 0;
-    background-color: #b2e0f4; 
-}
 
 header {
     display: flex;
@@ -13,7 +9,7 @@ header {
     align-items: center;
     background-color: #002147; 
     padding: 10px;
-    color: white;
+    color: #ead8b1;
 }
 
 header .logo {
@@ -26,14 +22,16 @@ nav ul {
     display: flex;
     margin: 0;
     padding: 0;
+    color: #ead8b1;
 }
 
 nav ul li {
+    color: #ead8b1;
     margin-left: 20px;
 }
 
 nav ul li a {
-    color: white;
+    color: #ead8b1;
     text-decoration: none;
 }
 
@@ -41,6 +39,7 @@ nav ul li a {
     display: flex;
     align-items: center;
     padding: 50px;
+    background-color:#6a9ab0;
 }
 
 .hero-content {
@@ -79,7 +78,7 @@ nav ul li a {
 }
 
 footer {
-    background-color: #b2e0f4;
+    background-color: #6a9ab0;
     padding: 10px;
     text-align: center;
     color: white;
