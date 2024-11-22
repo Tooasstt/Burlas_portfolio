@@ -47,22 +47,25 @@ nav ul li a {
 }
 
 .hero-content h1 {
-    font-size: 36px;
+    font-size: 50px;
     margin: 0;
+    color: #001f49
 }
 
 .hero-content h2 {
-    font-size: 24px;
+    font-size: 44px;
     margin: 5px 0 20px 0;
+    color: #ead8b1;
 }
 
 .inquire-btn {
     padding: 10px 20px;
-    background-color: #f5c542; 
-    border: none;
+    background-color: #001f49;
     border-radius: 5px;
     cursor: pointer;
     font-size: 16px;
+    border: 2px#ead8b1;
+    color: #ead8b1;
 }
 
 .hero-image {
@@ -81,11 +84,62 @@ footer {
     background-color: #6a9ab0;
     padding: 10px;
     text-align: center;
-    color: white;
 }
-
+.social-icons {
+    display: flex; 
+    align-items: center;
+    justify-content: flex-end;
+}
 .social-icons a {
     margin: 0 10px;
+    
 }
 
+.hobbies-section {
+    text-align: center; 
+    background-color: #3a6d8c;
     
+}
+
+.hobbies-header {
+    background-color:#001f49; 
+    display: inline-block; 
+    padding: 10px 20px; 
+    border-radius: 5px; 
+    display: flex; 
+    align-items: flex-start; 
+    width: 300px;
+    margin-left: 10px;
+   
+}
+
+.hobbies-header h1 {
+    font-size: 48px; 
+    color: #f4e1b1; 
+    margin: 0; 
+}
+
+.hobbies-container {
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+    margin-top: 20px; 
+}
+
+.hobby {
+    background-color:#001f49; 
+    color: #f4e1b1; 
+    width: 300px; 
+    padding: 15px; 
+    margin: 10px 0; 
+    border-radius: 8px; 
+    display: flex; 
+    align-items: center; 
+    border-color:2px solid #f4e1b1; ;
+}
+
+.hobby-icon {
+    width: 100px; 
+    height: auto; 
+    margin-right: 10px; 
+}
