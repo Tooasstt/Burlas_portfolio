@@ -1,7 +1,11 @@
 * {
+   
     box-sizing: border-box;
 }
-
+html, body {
+    height: 100%;
+    margin: 0;
+}
 
 header {
     display: flex;
@@ -98,7 +102,7 @@ footer {
 .hobbies-section {
     text-align: center; 
     background-color: #3a6d8c;
-    
+    height: 70vh;
 }
 
 .hobbies-header {
@@ -110,6 +114,7 @@ footer {
     align-items: flex-start; 
     width: 300px;
     margin-left: 10px;
+    text-align: center;
    
 }
 
@@ -124,6 +129,7 @@ footer {
     flex-direction: column; 
     align-items: center; 
     margin-top: 20px; 
+   
 }
 
 .hobby {
@@ -135,7 +141,7 @@ footer {
     border-radius: 8px; 
     display: flex; 
     align-items: center; 
-    border-color:2px solid #f4e1b1; ;
+    border-color:2px solid #f4e1b1; 
 }
 
 .hobby-icon {
@@ -143,3 +149,59 @@ footer {
     height: auto; 
     margin-right: 10px; 
 }
+
+
+.services-section {
+    text-align: center; 
+    padding: 40px; 
+    height: 70vh;
+    background-color:#00204b;
+}
+
+.services-header h1 {
+    font-size: 50px; 
+    color: #ead8b1; 
+    margin-bottom: 20px; 
+    padding: 10px 20px; 
+    border-radius: 5px; 
+    background-color: #3a6d8c;
+    display: inline-block; 
+   height: 10vh;
+   text-align: center; 
+
+}
+
+.services-container {
+    display: flex; 
+    justify-content: center; 
+    gap: 20px; 
+}
+
+.service {
+    background-color:  #3a6d8c; 
+    border-radius: 10px; 
+    padding: 20px; 
+    width: 200px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+    text-align: center; 
+    color: #ead8b1; 
+    margin-top: 20px;
+}
+
+.service-icon {
+    width: 100px; 
+    height: auto; 
+    margin-bottom: 10px; 
+}
+.line {
+    width: 50%; 
+    height: 2px;
+    background-color: #ffffff; 
+    margin: 10px auto; 
+}
+.service h2 {
+    font-size: 20px; 
+    margin: 0; 
+    margin-top: 10px;
+}
+
